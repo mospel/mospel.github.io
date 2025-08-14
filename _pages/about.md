@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Exploring Inverse Problems, Numerical Methods & Signal Processing in Acoustics"
+title: "Inverse Problems, Numerical Methods & Signal Processing in Acoustics"
 author_profile: true
 redirect_from: 
   - /about/
