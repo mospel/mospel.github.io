@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Matthias Ospel - Acoustics Research"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Matthias Ospel"
 description              : &description "Personal website of Matthias Ospel, researcher in acoustics."
