@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m an acoustics researcher focused on inverse problems, numerical methods, and signal processing. Here you’ll find my latest projects, publications, and talks.
+I’m a researcher exploring inverse problems, numerical methods, and signal processing in acoustics. Here you’ll find my latest projects, publications, and talks.
 
 You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
