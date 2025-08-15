@@ -41,3 +41,27 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* --- custom overrides: pin theme toggle top-right --- */
+.theme-toggle,
+.site-theme-toggle,
+[data-component="theme-toggle"] {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 2000;
+  /* optional polish */
+  padding: .4rem .6rem;
+  border-radius: .6rem;
+  backdrop-filter: blur(6px);
+}
+
+/* avoid clipping on iOS notches */
+@supports (padding: max(0px)) {
+  .theme-toggle,
+  .site-theme-toggle,
+  [data-component="theme-toggle"] {
+    top: max(12px, env(safe-area-inset-top));
+    right: max(12px, env(safe-area-inset-right));
+  }
+}
