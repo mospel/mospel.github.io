@@ -34,18 +34,9 @@ Work experience
   
 Skills
 ======
-* Languages
-  * German – native
-  * English – fluent
-  * French – basic
-* Programming
-  * Python
-  * C++
-  * MATLAB
-* Technical expertise
-  * Numerical modeling of sound and shock waves
-  * Signal processing
-  * Inverse acoustic problems
+* Languages: German (native), English (proficient), French (basic)  
+* Programming: Extensive experience in Python, MATLAB, C++
+* Technical expertise: Numerical modeling of sound and shock waves, signal processing, inverse acoustic problems
 
 Publications
 ======
