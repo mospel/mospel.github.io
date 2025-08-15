@@ -9,11 +9,12 @@ redirect_from:
 
 <div style="margin-top:1rem">
   <iframe
-    src="{{ '/talkmap-embed.html' | relative_url }}"
+    src="{{ '/talkmap/' | relative_url }}"
     width="100%"
     height="420"
-    style="border:2px solid black; display:block"
+    style="border:3px solid black; display:block"
     loading="lazy"
     title="Recent talks">
   </iframe>
 </div>
+
