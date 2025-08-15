@@ -2,11 +2,5 @@
 layout: none
 permalink: /talkmap-embed.html
 ---
-<iframe
-  src="{{ '/talkmap.html' | relative_url }}"
-  width="100%"
-  height="420"
-  style="border:0; display:block"
-  loading="lazy"
-  title="Talk map">
-</iframe>
+{% include base_path %}
+{% include talkmap.html %}
