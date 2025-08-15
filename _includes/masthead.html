@@ -3,10 +3,10 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="greedy-nav" style="display:flex;align-items:center;">
         <button><div class="navicon"></div></button>
 
-        <ul class="visible-links">
+        <ul class="visible-links" style="display:flex;align-items:center;">
           <li class="masthead__menu-item masthead__menu-item--lg persist">
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
@@ -22,10 +22,13 @@
           {% endfor %}
         </ul>
 
-        <!-- Theme toggle moved outside the nav list -->
-        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <!-- Toggle stays outside the list so greedy-nav doesn't hide it -->
+        <a id="theme-toggle"
+           role="button"
+           aria-label="Toggle theme"
+           style="margin-left:auto;display:inline-flex;align-items:center;padding:.4rem .6rem;cursor:pointer;">
           <i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>
-        </button>
+        </a>
 
         <ul class="hidden-links hidden"></ul>
       </nav>
