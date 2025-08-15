@@ -19,8 +19,12 @@ author_profile: true
           {{ post.date | date: "%B %d, %Y" }}
         </time>
       {% endif %}
-      {% if post.location %}
+      {% if post.venue %}
         {% if post.date %} — {% endif %}
+        <span class="pub-venue">{{ post.venue }}</span>
+      {% endif %}
+      {% if post.location %}
+        {% if post.date or post.venue %} — {% endif %}
         <span class="pub-location">{{ post.location }}</span>
       {% endif %}
     </div>
