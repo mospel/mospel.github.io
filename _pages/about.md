@@ -14,12 +14,12 @@ I’m a researcher exploring inverse problems, numerical methods, and signal pro
 <h2>Recent highlights</h2>
 
 <ul class="bibliography">
-{% assign picks = "/publication/2025-06-25-inverse-estimation-hypersonic" | split: "," %}
+{% assign picks = "/publication/2025-06-25-inverse-estimation-hypersonic/" | split: "," %}
 {% for link in picks %}
   {% assign hit = site.publications | where: "permalink", link | first %}
   {% if hit %}
     {% assign post = hit %}
-    {% include publication_list.html %}
+    {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 </ul>
