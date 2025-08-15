@@ -1,13 +1,11 @@
 ---
-title: "Paper Title Number 4"
+title: "Global active noise control using SIMO near-field systems - Simulation and technical implementation"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+category: conference
+permalink: /publication/2024-10-04-global-active-noise-control-simo-near-field/
+excerpt: 'Global active noise control using SIMO near-field systems - Simulation and technical implementation.'
+date: 2024-10-04
+venue: 'INTER-NOISE24, Nantes, France'
+paperurl: 'https://doi.org/10.3397/IN_2024_3620'
+citation: 'M W Ospel, N Nolte, M Witte, F-H Wurm. (2024). "Global active noise control using SIMO near-field systems - Simulation and technical implementation." <i>INTER-NOISE and NOISE-CON Congress and Conference Proceedings, INTER-NOISE24</i>, pp. 5589–5600. Institute of Noise Control Engineering.'
 ---
-
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
