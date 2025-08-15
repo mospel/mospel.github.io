@@ -18,7 +18,7 @@ Education
 * Bachelor of Science, Middlesex University, 2017 <br>
   Thesis on the comparative study of spherical and cubic Helmholtz resonators
   
-Work experience
+Work Experience
 ------
 * Spring 2023 - present: Staff Scientist
   * French-German Research Institute of Saint-Louis
