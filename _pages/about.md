@@ -19,7 +19,14 @@ I’m a researcher exploring inverse problems, numerical methods, and signal pro
   {% assign hit = site.publications | where: "permalink", link | first %}
   {% if hit %}
     {% assign post = hit %}
-    {% include archive-single.html %}
+    <li class="pub-scholar">
+      <div class="pub-title" style="font-size: 1rem; font-weight: 600;">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </div>
+      <div class="pub-citation">
+        {{ post.citation }}
+      </div>
+    </li>
   {% endif %}
 {% endfor %}
 </ul>
