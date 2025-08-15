@@ -9,14 +9,6 @@ redirect_from:
 
 I’m a researcher exploring inverse problems, numerical methods, and signal processing in acoustics. Here you’ll find my contact information, publications, and talks.
 
-<h2>Recent highlights</h2>
-
-paper1
-
-paper2
-
-paper3
-
 <h2>Recent activities</h2>
 <div id="talks-map" style="height:360px;margin:1.25rem 0;"></div>
 
@@ -60,3 +52,10 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+<h2>Recent highlights</h2>
+
+paper1
+
+paper2
+
+paper3
