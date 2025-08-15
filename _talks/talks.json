@@ -1,0 +1,23 @@
+---
+permalink: /talks.json
+layout: null
+---
+[
+{% assign first = true %}
+{% for t in site.talks %}
+  {% if t.latitude and t.longitude %}
+    {% unless first %},{% endunless %}
+    {% assign first = false %}
+    {
+      "title": {{ t.title | jsonify }},
+      "venue": {{ t.venue | default: "" | jsonify }},
+      "where": {{ t.location | default: "" | jsonify }},
+      "url": {{ t.url | relative_url | jsonify }},
+      "ext": {{ t.talkurl | default: t.talk_url | default: "" | jsonify }},
+      "lat": {{ t.latitude | jsonify }},
+      "lng": {{ t.longitude | jsonify }},
+      "date": {{ t.date | date: "%Y-%m-%d" | jsonify }}
+    }
+  {% endif %}
+{% endfor %}
+]
