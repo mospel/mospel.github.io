@@ -1,3 +1,14 @@
+<style>
+.archive__item-excerpt > summary {
+  color: var(--link-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.archive__item-excerpt > summary:hover {
+  color: var(--link-color-hover);
+}
+</style>
+
 {% include base_path %}
 
 {% if post.header.teaser %}
@@ -48,7 +59,7 @@
 
     {% if post.excerpt %}
     <details class="archive__item-excerpt">
-      <summary><a href="#">Show abstract</a></summary>
+      <summary>Show abstract</summary>
       <div itemprop="description">
         {{ post.excerpt | markdownify }}
       </div>
