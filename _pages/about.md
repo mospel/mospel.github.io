@@ -9,10 +9,22 @@ redirect_from:
 
 I’m a researcher exploring inverse problems, numerical methods, and signal processing in acoustics. Here you’ll find my contact information, publications, and talks.
 
+
+
 <h2>Recent highlights</h2>
 
-{% assign pub = site.publications | where: "permalink", "/publication/2025-06-25-inverse-estimation-hypersonic" | first %}
-{% include publication.html pub=pub %}
+<ul class="bibliography">
+{% assign picks = "/publication/2025-06-25-inverse-estimation-hypersonic" | split: "," %}
+{% for link in picks %}
+  {% assign hit = site.publications | where: "permalink", link | first %}
+  {% if hit %}
+    {% assign post = hit %}
+    {% include publication_list.html %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+
 
 <h2>Recent activities</h2>
 <div id="talks-map" style="height:360px;margin:1.25rem 0;"></div>
