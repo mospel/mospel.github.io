@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m a researcher exploring inverse problems, numerical methods, and signal processing in acoustics. Here you’ll find my contact information, publications, and talks.
+I’m a researcher exploring inverse problems, numerical methods, and signal processing in acoustics. Here you’ll find my contact information, publications, lectures and talks.
 
 
 
