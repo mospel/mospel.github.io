@@ -45,7 +45,7 @@ Skills
 * Technical expertise
   * Numerical modeling of sound and shock waves
   * Signal processing
-  * Inverse problems
+  * Inverse acoustic problems
 
 Publications
 ======
