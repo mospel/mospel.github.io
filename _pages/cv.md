@@ -11,11 +11,11 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in Acoustics, University of Rostock, 2023
+* Ph.D. in Acoustics, University of Rostock, 2023 <br>
   Thesis on the active global control of time-harmonic sound waves
-* Master in Acoustics, University of Stuttgart, 2020
+* Master in Acoustics, University of Stuttgart, 2020 <br>
   Thesis on the investigation of ultrasonic scattering for object classification
-* Bachelor of Science, Middlesex University, 2017
+* Bachelor of Science, Middlesex University, 2017 <br>
   Thesis on the comparative study of spherical and cubic Helmholtz resonators
   
 Work experience
