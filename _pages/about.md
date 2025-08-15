@@ -17,7 +17,7 @@ I’m a researcher exploring inverse problems, numerical methods, and signal pro
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const map = L.map('talks-map').setView([20, 0], 2);
+  const map = L.map('talks-map', { worldCopyJump: true });
 
   {% raw %}
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -25,16 +25,14 @@ document.addEventListener('DOMContentLoaded', function () {
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(map);
   {% endraw %}
-  map.fitWorld();
 
   const talksUrl = '{{ "/talks.json" | relative_url }}';
 
   fetch(talksUrl)
-    .then(r => {
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return r.json();
-    })
+    .then(r => r.json())
     .then(data => {
+      const bounds = L.latLngBounds();
+
       data.forEach(t => {
         L.marker([t.lat, t.lng])
           .addTo(map)
@@ -43,13 +41,24 @@ document.addEventListener('DOMContentLoaded', function () {
             (t.venue ? `<br>${t.venue}` : '') +
             (t.where ? `<br>${t.where}` : '') +
             (t.date ? `<br>${t.date}` : '') +
-            (t.url ? `<br><a href="${t.url}">Details</a>` : '')
+            `<br><a href="{{ "/talks/" | relative_url }}">Details</a>`
           );
+        bounds.extend([t.lat, t.lng]);
       });
+
+      // Only adjust view if there are markers
+      if (!bounds.isEmpty()) {
+        map.fitBounds(bounds, {
+          padding: [20, 20], // space around edges
+          maxZoom: 2         // prevent zooming in too close
+        });
+      } else {
+        // No markers? show whole world
+        map.fitWorld();
+      }
     })
-    .catch(err => {
-      console.error('Failed to load talks.json:', err);
-    });
+    .catch(err => console.error('Failed to load talks.json:', err));
 });
 </script>
+
 
