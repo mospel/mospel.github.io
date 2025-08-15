@@ -6,7 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
   console.log('[talks-map] fetch:', url);
 
   fetch(url)
-    .then(r => { console.log('[talks-map] status:', r.status); return r.json(); })
+    .then(r => { 
+      console.log('[talks-map] status:', r.status); 
+      return r.json(); 
+    })
     .then(items => {
       console.log('[talks-map] items:', items.length);
 
@@ -25,12 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
           return;
         }
         const m = L.marker([lat, lng]).addTo(map);
-        const popup = [
+
+        // build popup
+        const lines = [
+          '<em>Talk / Lecture:</em>',
           d.title && `<strong>${d.title}</strong>`,
           d.where,
-          d.url && `<a href="${d.url}">Talk page</a>`
-        ].filter(Boolean).join('<br>');
+          // d.url && `<a href="${d.url}">Talk page</a>` // commented out for now
+        ].filter(Boolean);
+
+        const popup = lines.join('<br>');
         if (popup) m.bindPopup(popup);
+
         markers.push(m);
       });
 
