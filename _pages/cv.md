@@ -38,7 +38,7 @@ Skills
 * Programming: Extensive experience in Python and MATLAB; proficient in C++
 * Technical expertise: Numerical modeling of sound and shock waves, signal processing, inverse acoustic problems
 
-Publications
+Peer-reviewed Publications
 ------
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
