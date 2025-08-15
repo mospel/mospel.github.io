@@ -1,12 +1,10 @@
 ---
-layout: single
 permalink: /
 title: "Inverse Problems, Numerical Methods & Signal Processing in Acoustics"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
-classes: wide
 ---
 
 <div style="margin-top:1rem">
