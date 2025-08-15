@@ -17,9 +17,27 @@ I’m a researcher exploring inverse problems, numerical methods, and signal pro
 {% raw %}
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const map = L.map('talks-map').setView([20, 0], 2);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(map);
-  L.marker([37.7749, -122.4194]).addTo(map).bindPopup('Test marker: SF');
+  const el = document.getElementById('talks-map');
+  const url = '{{ "/talks.json" | relative_url }}';
+  fetch(url).then(r => r.json()).then(items => {
+    const map = L.map('talks-map');
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 18}).addTo(map);
+    const ms = [];
+    items.forEach(d => {
+      const lat = Number(d.lat), lng = Number(d.lng);
+      if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
+      const m = L.marker([lat, lng]).addTo(map);
+      const html = [
+        d.title && `<strong>${d.title}</strong>`,
+        d.where,
+        d.url && `<a href="${d.url}">Talk page</a>`
+      ].filter(Boolean).join('<br>');
+      if (html) m.bindPopup(html);
+      ms.push(m);
+    });
+    if (ms.length) map.fitBounds(L.featureGroup(ms).getBounds().pad(0.2));
+    else map.setView([20,0], 2);
+  }).catch(err => console.error('talks map error:', err));
 });
 </script>
 {% endraw %}
