@@ -2,19 +2,18 @@
 permalink: /talks.json
 layout: null
 ---
+{% assign items = site.talks | where_exp:"t","t.latitude and t.longitude" | sort:"date" | reverse %}
 [
-{% for t in site.talks %}
-{% if t.latitude and t.longitude %}
-{
-  "title": {{ t.title | jsonify }},
-  "venue": {{ t.venue | default: "" | jsonify }},
-  "where": {{ t.location | default: "" | jsonify }},
-  "url": {{ t.url | relative_url | jsonify }},
-  "ext": {{ t.talkurl | default: t.talk_url | default: "" | jsonify }},
-  "lat": {{ t.latitude }},
-  "lng": {{ t.longitude }},
-  "date": {{ t.date | date: "%Y-%m-%d" | jsonify }}
-}{% unless forloop.last %},{% endunless %}
-{% endif %}
+{% for t in items %}
+  {
+    "title": {{ t.title | jsonify }},
+    "venue": {{ t.venue | default: "" | jsonify }},
+    "where": {{ t.location | default: "" | jsonify }},
+    "url": {{ t.url | relative_url | jsonify }},
+    "ext": {{ t.talkurl | default: t.talk_url | default: "" | jsonify }},
+    "lat": {{ t.latitude }},
+    "lng": {{ t.longitude }},
+    "date": {{ t.date | date: "%Y-%m-%d" | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
