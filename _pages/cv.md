@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,35 +11,41 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
+* Ph.D. in Acoustics, University of Rostock, 2023
+  Thesis on the active global control of time-harmonic sound waves
+* Master in Acoustics, University of Stuttgart, 2020
+  Thesis on the investigation of ultrasonic scattering for object classification
+* Bachelor of Science, Middlesex University, 2017
+  Thesis on the comparative study of spherical and cubic Helmholtz resonators
+  
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Spring 2023 - present: Staff Scientist
+  * French-German Research Institute of Saint-Louis
+  * Acoustics and Shock Waves Group
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2020 - Spring 2023: Doctoral Researcher
+  * University of Rostock
+  * Acoustics Group (Supervision: Prof. Dr.-Ing. F.-H. Wurm, Dr.-Ing. M. Witte)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Winter 2019 - Spring 2020: Research Internship
+  * Robert Bosch Center for Research and Development Renningen
+  * Structual Dynamics and Acoustics Group (Supervision: Prof. Dr.-Ing. P. Leistner, Dr.-Ing. A. Gerlach)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Languages
+  * German – native
+  * English – fluent
+  * French – basic
+* Programming
+  * Python
+  * C++
+  * MATLAB
+* Technical expertise
+  * Modeling of sound and shock waves
+  * Signal processing
+  * Inverse problems
 
 Publications
 ======
@@ -52,7 +58,10 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
+
+
+{% comment %}
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
@@ -62,3 +71,4 @@ Teaching
 Service and leadership
 ======
 * Currently signed in to 43 different slack teams
+{% endcomment %}
