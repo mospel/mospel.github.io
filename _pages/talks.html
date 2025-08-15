@@ -5,6 +5,22 @@ permalink: /talks/
 author_profile: true
 ---
 
+<ul class="bibliography">
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+  <li class="pub-scholar">
+    <div class="pub-title" style="font-size: 1rem; font-weight: 600;">
+      <a href="{{ post.url | relative_url }}">{{ title }}</a>
+    </div>
+
+    {% if post.citation %}
+      <div class="pub-citation">{{ post.citation }}</div>
+    {% endif %}
+
+    <div class="pub-links">
+      {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+      {% if post.videourl %}{% if post.slidesurl %}, {% endif %}<a href="{{ post.videourl }}">Video</a>{% endif %}
+    </div>
+  </li>
 {% endfor %}
+</ul>
