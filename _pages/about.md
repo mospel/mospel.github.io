@@ -6,3 +6,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+I’m a researcher exploring inverse problems, numerical methods, and signal processing in acoustics. Here you’ll find my contact information, publications, and talks.
+
+---
+
+<div id="talks-map" style="height:420px;margin:1.5rem 0;"></div>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script>
+fetch('{{ "/talks.json" | relative_url }}')
+  .then(r => r.json())
+  .then(items => {
+    var map = L.map('talks-map').setView([20,0], 2);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18}).addTo(map);
+    items.forEach(d => {
+      var m = L.marker([d.lat, d.lng]).addTo(map);
+      m.bindPopup('<strong>'+d.title+'</strong><br>'+(d.where||'')+'<br><a href="'+d.url+'">Details</a>');
+    });
+  });
+</script>
