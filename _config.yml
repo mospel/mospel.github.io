@@ -6,6 +6,9 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+# force theme
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
@@ -317,6 +320,7 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-include-cache
   - jemoji
 
 
