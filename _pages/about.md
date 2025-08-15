@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     attribution: '&copy; OpenStreetMap contributors'
   }).addTo(map);
   {% endraw %}
+  map.fitWorld();
 
   const talksUrl = '{{ "/talks.json" | relative_url }}';
 
