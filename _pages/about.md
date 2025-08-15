@@ -54,8 +54,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <h2>Recent highlights</h2>
 
-paper1
-
-paper2
-
-paper3
+{% assign pub = site.publications | where: "permalink", "/publication/2025-06-25-inverse-estimation-hypersonic" | first %}
+{% include publication.html pub=pub %}
