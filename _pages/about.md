@@ -17,7 +17,7 @@ I’m a researcher exploring inverse problems, numerical methods, and signal pro
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const map = L.map('talks-map').setView([20, 0], 2);
+  const map = L.map('talks-map', { worldCopyJump: true }); // no initial setView
 
   {% raw %}
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -34,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function () {
       return r.json();
     })
     .then(data => {
+      const bounds = L.latLngBounds();
+
       data.forEach(t => {
         L.marker([t.lat, t.lng])
           .addTo(map)
@@ -44,12 +46,17 @@ document.addEventListener('DOMContentLoaded', function () {
             (t.date ? `<br>${t.date}` : '') +
             (t.url ? `<br><a href="${t.url}">Details</a>` : '')
           );
+        bounds.extend([t.lat, t.lng]);
       });
+
+      if (!bounds.isEmpty()) {
+        map.fitBounds(bounds, { padding: [20, 20], maxZoom: 2 }); // fit to markers
+        map.setZoom(map.getZoom() - 1); // back off one level (~80% fit)
+      } else {
+        map.fitWorld();
+        map.setZoom(map.getZoom() - 1);
+      }
     })
-    .catch(err => {
-      console.error('Failed to load talks.json:', err);
-    });
+    .catch(err => console.error('Failed to load talks.json:', err));
 });
 </script>
-
-
