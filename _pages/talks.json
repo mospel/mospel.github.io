@@ -1,0 +1,11 @@
+---
+permalink: /talks.json
+layout: null
+---
+[
+{% for t in site.talks %}
+{% if t.latitude and t.longitude %}
+{"title": {{ t.title | jsonify }}, "where": {{ t.location | jsonify }}, "url": {{ t.url | relative_url | jsonify }}, "lat": {{ t.latitude }}, "lng": {{ t.longitude }}, "date": {{ t.date | date: "%Y-%m-%d" | jsonify }}}{% unless forloop.last %},{% endunless %}
+{% endif %}
+{% endfor %}
+]
