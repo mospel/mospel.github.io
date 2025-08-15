@@ -1,13 +1,18 @@
 <style>
-.archive__item-excerpt > summary {
-  color: var(--link-color);
+.abstract-toggle {
+  display: inline-block;
+  color: #2a7ae2; /* Minimal Mistakes link blue */
   cursor: pointer;
   text-decoration: underline;
 }
-.archive__item-excerpt > summary:hover {
-  color: var(--link-color-hover);
+.abstract-toggle:hover {
+  color: #1756a9; /* Minimal Mistakes link hover */
+}
+.abstract-toggle::-webkit-details-marker {
+  display: none; /* removes the default triangle */
 }
 </style>
+
 
 {% include base_path %}
 
@@ -59,7 +64,7 @@
 
     {% if post.excerpt %}
     <details class="archive__item-excerpt">
-      <summary>Show abstract</summary>
+      <summary class="abstract-toggle">Show abstract</summary>
       <div itemprop="description">
         {{ post.excerpt | markdownify }}
       </div>
