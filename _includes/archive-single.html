@@ -4,22 +4,21 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-
-    <p>
+<ul class="bibliography">
+  <li class="pub-scholar">
+    <div class="pub-title" style="font-size: 1rem; font-weight: 600;">
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">{{ title }}</a>
       {% else %}
         {{ title }}
       {% endif %}
-    </p>
+    </div>
 
     {% if post.citation %}
-      <p>{{ post.citation }}</p>
+      <div class="pub-citation">{{ post.citation }}</div>
     {% endif %}
 
-    <p>
+    <div class="pub-links">
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}">Download Paper</a>
       {% endif %}
@@ -27,10 +26,9 @@
         {% if post.paperurl %}, {% endif %}
         <a href="{{ post.bibtexurl }}" onclick="copyBibtex('{{ post.bibtexurl }}'); return false;">Cite this work</a>
       {% endif %}
-    </p>
-
-  </article>
-</div>
+    </div>
+  </li>
+</ul>
 
 <script>
 function copyBibtex(url) {
