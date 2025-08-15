@@ -43,7 +43,7 @@ Skills
   * C++
   * MATLAB
 * Technical expertise
-  * Modeling of sound and shock waves
+  * Numerical modeling of sound and shock waves
   * Signal processing
   * Inverse problems
 
