@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+------
 * Ph.D. in Acoustics, University of Rostock, 2023 <br>
   Thesis on the active global control of time-harmonic sound waves
 * Master in Acoustics, University of Stuttgart, 2020 <br>
@@ -19,7 +19,7 @@ Education
   Thesis on the comparative study of spherical and cubic Helmholtz resonators
   
 Work experience
-======
+------
 * Spring 2023 - present: Staff Scientist
   * French-German Research Institute of Saint-Louis
   * Acoustics and Shock Waves Group
@@ -33,19 +33,19 @@ Work experience
   * Structual Dynamics and Acoustics Group (Supervision: Prof. Dr.-Ing. P. Leistner, Dr.-Ing. A. Gerlach)
   
 Skills
-======
+------
 * Languages: German (native), English (proficient), French (basic)  
 * Programming: Extensive experience in Python and MATLAB; proficient in C++
 * Technical expertise: Numerical modeling of sound and shock waves, signal processing, inverse acoustic problems
 
 Publications
-======
+------
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Talks and Lectures
-======
+------
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
@@ -54,12 +54,12 @@ Talks and Lectures
 
 {% comment %}
 Teaching
-======
+------
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
 Service and leadership
-======
+------
 * Currently signed in to 43 different slack teams
 {% endcomment %}
