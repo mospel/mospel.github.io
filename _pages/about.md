@@ -1,18 +1,20 @@
 ---
+layout: single
 permalink: /
 title: "Inverse Problems, Numerical Methods & Signal Processing in Acoustics"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
+classes: wide
 ---
 
 <div style="margin-top:1rem">
   <iframe
-    src="/talkmap.html"
+    src="{{ '/talkmap-embed.html' | relative_url }}"
     width="100%"
     height="420"
-    style="border:3px solid black"
+    style="border:2px solid black; display:block"
     loading="lazy"
     title="Recent talks">
   </iframe>
