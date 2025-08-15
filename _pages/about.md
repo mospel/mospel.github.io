@@ -9,8 +9,6 @@ redirect_from:
 
 I’m a researcher exploring inverse problems, numerical methods, and signal processing in acoustics. Here you’ll find my contact information, publications, and talks.
 
----
-
 <h2>Recent activities</h2>
 <div id="talks-map" data-url="{{ '/talks.json' | relative_url }}" style="height:360px;margin:1.25rem 0;"></div>
 
