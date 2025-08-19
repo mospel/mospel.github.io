@@ -65,3 +65,8 @@
     right: max(12px, env(safe-area-inset-right));
   }
 }
+
+/* --- custom override: profile pic with slightly rounded corners --- */
+.author__avatar img {
+  border-radius: 6px;
+}
