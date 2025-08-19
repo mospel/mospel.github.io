@@ -20,16 +20,16 @@ Education
   
 Work Experience
 ------
-* Spring 2023 - present: Staff Scientist
-  French-German Research Institute of Saint-Louis
+* Spring 2023 - present: Staff Scientist  
+  French-German Research Institute of Saint-Louis  
   Acoustics and Shock Waves Group
 
-* Spring 2020 - Spring 2023: Doctoral Researcher
-  University of Rostock
+* Spring 2020 - Spring 2023: Doctoral Researcher  
+  University of Rostock  
   Acoustics Group (Supervision: Prof. Dr.-Ing. F.-H. Wurm, Dr.-Ing. M. Witte)
 
-* Winter 2019 - Spring 2020: Research Internship
-  Robert Bosch Center for Research and Development Renningen
+* Winter 2019 - Spring 2020: Research Internship  
+  Robert Bosch Center for Research and Development Renningen  
   Structual Dynamics and Acoustics Group (Supervision: Prof. Dr.-Ing. P. Leistner, Dr.-Ing. A. Gerlach)
   
 Skills
