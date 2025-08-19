@@ -11,10 +11,10 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks and Lectures"
+  - title: "Talks and lectures"
     url: /talks/    
     
-  - title: "Curriculum Vitae"
+  - title: "Curriculum vitae"
     url: /cv/
 
   #- title: "Teaching"
