@@ -70,10 +70,3 @@
 .author__avatar img {
   border-radius: 6px;
 }
-
-/* --- remove the details link in the pop up --- */
-.leaflet-popup-content a.btn,
-.leaflet-popup-content a.btn--inverse {
-  display: none !important;
-}
-
