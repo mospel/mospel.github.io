@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Curriculum Vitae"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -18,7 +18,7 @@ Education
 * Bachelor of Science, Middlesex University, 2017 <br>
   Thesis on the comparative study of spherical and cubic Helmholtz resonators
   
-Work Experience
+Work experience
 ------
 * Spring 2023 - present: Staff Scientist  
   French-German Research Institute of Saint-Louis  
@@ -38,13 +38,13 @@ Skills
 * Programming: Extensive experience in Python and MATLAB; proficient in C++
 * Technical expertise: Numerical modeling of sound and shock waves, signal processing, inverse acoustic problems
 
-Peer-reviewed Publications
+Peer-reviewed publications
 ------
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks and Lectures
+Talks and lectures
 ------
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
