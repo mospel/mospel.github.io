@@ -90,9 +90,9 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Peer-reviewed Journal Papers'    
+    title: 'Peer-reviewed journal publications'    
   conferences:
-    title: 'Peer-reviewed Conference Papers'
+    title: 'Peer-reviewed conference publications'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
