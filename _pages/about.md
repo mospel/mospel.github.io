@@ -14,7 +14,7 @@ I’m a researcher exploring inverse problems, numerical methods, and signal pro
 <h2>Recent highlights</h2>
 
 <ul class="bibliography">
-{% assign picks = "/publication/2025-06-25-inverse-estimation-hypersonic/,/publication/2024-02-17-fast-iterative-shooter-localization/" | split: "," %}
+{% assign picks = "/publication/2025-06-25-inverse-estimation-hypersonic/,/publication/2026-01-iterative-path-expansion-helmholtz/" | split: "," %}
 {% for link in picks %}
   {% assign hit = site.publications | where: "permalink", link | first %}
   {% if hit %}
