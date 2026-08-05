@@ -13,10 +13,10 @@ Work experience
 ------
 * August 2026 - December 2026: Visiting Researcher <br>
   Norwegian University of Science and Technology (NTNU), Trondheim, Norway <br>
-  Acoustics Group (Host: Prof. Ulf Peter Svensson)
+  Acoustics Group (Host: Prof. Dr. U. P. Svensson)
 * Spring 2023 - present: Staff Scientist <br>
   French-German Research Institute of Saint-Louis, Saint-Louis, France <br>
-  Acoustics and Shock Waves Group (Leader: Dr. Hengy)
+  Acoustics and Shock Waves Group (Leader: Dr. S. Hengy)
 * Spring 2020 - Spring 2023: Doctoral Researcher <br>
   University of Rostock, Rostock, Germany <br>
   Acoustics Group (Supervision: Prof. Dr.-Ing. F.-H. Wurm, Dr.-Ing. M. Witte)
