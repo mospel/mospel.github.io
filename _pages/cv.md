@@ -11,7 +11,7 @@ redirect_from:
 
 Work experience
 ------
-* August 2026 - December 2026: Visiting Researcher <br>
+* Summer 2026 - Winter 2026: Visiting Researcher <br>
   Norwegian University of Science and Technology (NTNU), Trondheim, Norway <br>
   Acoustics Group (Host: Prof. Dr. U. P. Svensson)
 * Spring 2023 - present: Staff Scientist <br>
