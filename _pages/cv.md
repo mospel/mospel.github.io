@@ -9,6 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
+Work experience
+------
+* August 2026 - December 2026: Visiting Researcher <br>
+  Norwegian University of Science and Technology (NTNU), Trondheim, Norway <br>
+  Acoustics Group (Host: Prof. Ulf Peter Svensson)
+* Spring 2023 - present: Staff Scientist <br>
+  French-German Research Institute of Saint-Louis, Saint-Louis, France <br>
+  Acoustics and Shock Waves Group (Leader: Dr. Hengy)
+* Spring 2020 - Spring 2023: Doctoral Researcher <br>
+  University of Rostock, Rostock, Germany <br>
+  Acoustics Group (Supervision: Prof. Dr.-Ing. F.-H. Wurm, Dr.-Ing. M. Witte)
+* Winter 2019 - Spring 2020: Research Internship <br>
+  Robert Bosch Center for Research and Development, Renningen, Germany <br>
+  Structual Dynamics and Acoustics Group (Supervision: Prof. Dr.-Ing. P. Leistner, Dr.-Ing. A. Gerlach)
+
 Education
 ------
 * Ph.D. in Acoustics, University of Rostock, 2023 <br>
@@ -17,19 +32,7 @@ Education
   Thesis on the investigation of ultrasonic scattering for object classification
 * Bachelor of Science, Middlesex University, 2017 <br>
   Thesis on the comparative study of spherical and cubic Helmholtz resonators
-  
-Work experience
-------
-* Spring 2023 - present: Staff Scientist <br>
-  French-German Research Institute of Saint-Louis <br>
-  Acoustics and Shock Waves Group
-* Spring 2020 - Spring 2023: Doctoral Researcher <br>
-  University of Rostock <br>
-  Acoustics Group (Supervision: Prof. Dr.-Ing. F.-H. Wurm, Dr.-Ing. M. Witte)
-* Winter 2019 - Spring 2020: Research Internship <br>
-  Robert Bosch Center for Research and Development Renningen <br>
-  Structual Dynamics and Acoustics Group (Supervision: Prof. Dr.-Ing. P. Leistner, Dr.-Ing. A. Gerlach)
-  
+
 Skills
 ------
 * Languages: German (native), English (proficient), French (basic)  
