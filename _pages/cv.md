@@ -37,7 +37,7 @@ Skills
 ------
 * Languages: German (native), English (proficient), French (basic)  
 * Programming: Extensive experience in Python and MATLAB, proficient in C++
-* Technical expertise: Numerical modeling of sound and shock waves, signal processing, inverse acoustic problems
+* Technical expertise: Numerical modeling of sound and shock waves, signal processing, localization
 
 Peer-reviewed publications
 ------
