@@ -14,20 +14,16 @@ I’m a researcher exploring inverse problems, numerical methods, and signal pro
 <h2>Recent highlights</h2>
 
 <ul class="bibliography">
-{% assign picks = "/publication/2026-04-19-multi-sensor-multi-source-localization-under-clutter-and-uncertainty/,/publication/2026-08-06-deterministic-ambiguity-regions-in-tdoa-multilateration/" | split: "," %}
-{% for link in picks %}
-  {% assign hit = site.publications | where: "permalink", link | first %}
-  {% if hit %}
-    {% assign post = hit %}
-    <li class="pub-scholar">
-      <div class="pub-title" style="font-size: 1rem; font-weight: 600;">
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </div>
-      <div class="pub-citation">
-        {{ post.citation }}
-      </div>
-    </li>
-  {% endif %}
+{% assign recent_publications = site.publications | sort: "date" | reverse %}
+{% for post in recent_publications limit: 2 %}
+  <li class="pub-scholar">
+    <div class="pub-title" style="font-size: 1rem; font-weight: 600;">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </div>
+    <div class="pub-citation">
+      {{ post.citation }}
+    </div>
+  </li>
 {% endfor %}
 </ul>
 
