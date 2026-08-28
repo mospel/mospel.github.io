@@ -21,7 +21,7 @@ Work experience
 
 - **Doctoral Researcher** · *Spring 2020–Spring 2023*  
   University of Rostock, Rostock, Germany  
-  Acoustics Group · Supervisors: Prof. Dr.-Ing. F.-H. Wurm and Dr.-Ing. M. Witte
+  Turbomachinery and Acoustics Group · Supervisors: Prof. Dr.-Ing. F.-H. Wurm and Dr.-Ing. M. Witte
 
 - **Research Intern** · *Winter 2019–Spring 2020*  
   Robert Bosch Research and Development, Renningen, Germany  
