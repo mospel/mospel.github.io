@@ -11,27 +11,27 @@ redirect_from:
 
 Work experience
 ------
-* Summer 2026 - Winter 2026: Visiting Researcher <br>
-  Norwegian University of Science and Technology, Trondheim, Norway <br>
-  Acoustics Group (Host: Prof. Dr. U. P. Svensson)
-* Spring 2023 - present: Staff Scientist <br>
-  French-German Research Institute of Saint-Louis, Saint-Louis, France <br>
-  Acoustics and Shock Waves Group (Leader: Dr. S. Hengy)
-* Spring 2020 - Spring 2023: Doctoral Researcher <br>
-  University of Rostock, Rostock, Germany <br>
-  Acoustics Group (Supervision: Prof. Dr.-Ing. F.-H. Wurm, Dr.-Ing. M. Witte)
-* Winter 2019 - Spring 2020: Research Internship <br>
-  Robert Bosch Center for Research and Development, Renningen, Germany <br>
-  Structual Dynamics and Acoustics Group (Supervision: Prof. Dr.-Ing. P. Leistner, Dr.-Ing. A. Gerlach)
+- **Visiting Researcher** · *Summer–Winter 2026*  
+  Norwegian University of Science and Technology (NTNU), Trondheim, Norway  
+  Acoustics Group · Host: Prof. Dr. U. P. Svensson
+
+- **Staff Scientist** · *Spring 2023–present*  
+  French-German Research Institute of Saint-Louis, Saint-Louis, France  
+  Acoustics and Shock Waves Group · Group leader: Dr. S. Hengy
+
+- **Doctoral Researcher** · *Spring 2020–Spring 2023*  
+  University of Rostock, Rostock, Germany  
+  Acoustics Group · Supervisors: Prof. Dr.-Ing. F.-H. Wurm and Dr.-Ing. M. Witte
+
+- **Research Intern** · *Winter 2019–Spring 2020*  
+  Robert Bosch Research and Development, Renningen, Germany  
+  Structural Dynamics and Acoustics Group · Supervisors: Prof. Dr.-Ing. P. Leistner and Dr.-Ing. A. Gerlach
 
 Education
 ------
-* Ph.D. in Acoustics, University of Rostock, 2023 <br>
-  Thesis on the active global control of time-harmonic sound waves
-* Master in Acoustics, University of Stuttgart, 2020 <br>
-  Thesis on the investigation of ultrasonic scattering for object classification
+* Dr.-Ing. in Acoustics, University of Rostock, 2023 <br>
+* Master of Acoustics, University of Stuttgart, 2020 <br>
 * Bachelor of Science, Middlesex University, 2017 <br>
-  Thesis on the comparative study of spherical and cubic Helmholtz resonators
 
 Skills
 ------
