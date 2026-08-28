@@ -15,7 +15,7 @@ Work experience
   Norwegian University of Science and Technology (NTNU), Trondheim, Norway  
   Acoustics Group · Host: Prof. Dr. U. P. Svensson
 
-- **Staff Scientist** · *Spring 2023–present*  
+- **Research Scientist** · *Spring 2023–present*  
   French-German Research Institute of Saint-Louis, Saint-Louis, France  
   Acoustics and Shock Waves Group · Group leader: Dr. S. Hengy
 
