@@ -27,12 +27,6 @@ Work experience
   Robert Bosch Research and Development, Renningen, Germany  
   Structural Dynamics and Acoustics Group · Supervisors: Prof. Dr.-Ing. P. Leistner and Dr.-Ing. A. Gerlach
 
-Education
-------
-* Dr.-Ing. in Acoustics, University of Rostock, 2023 <br>
-* Master of Acoustics, University of Stuttgart, 2020 <br>
-* Bachelor of Science, Middlesex University, 2017 <br>
-
 Skills
 ------
 * Languages: German (native), English (proficient), French (basic)  
